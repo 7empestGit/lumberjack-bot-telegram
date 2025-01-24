@@ -1,11 +1,11 @@
 # lumberjack-bot-telegram
 
-## Overview
+## 🌟 Overview
 A Python-based bot designed to automate playing "Lumberjack" game on Telegram. The bot uses image processing to detect branches and keyboard inputs to control the character's actions.
 
 You can play the Lumberjack game on Telegram at [https://t.me/gamebot](https://t.me/gamebot).
 
-## Requirements
+## 📋 Requirements
 The project requires the following Python packages:
 - numpy
 - Pillow
@@ -19,7 +19,7 @@ You can install the required packages using the following command:
 pip install -r requirements.txt
 ```
 
-## Usage
+## 🚀 Usage
 1. **Setup**: Ensure you have all the required packages installed.
 2. **Run the Bot**: Execute the `main.py` script.
     ```sh
@@ -37,17 +37,20 @@ pip install -r requirements.txt
 5. **Start the Game**: Press and hold the `up` key to start the bot. The bot will begin cutting trees and toggling directions based on the branch positions.
 6. **Stop the Bot**: Press the `down` key to stop the bot.
 
-## How It Works
+## ⚙️ How It Works
 - The bot captures the screen using `ImageGrab` and processes the image using `opencv-python`.
 - It listens for mouse clicks to get the coordinates of the man's head on both sides.
 - The bot uses keyboard inputs to control the character's actions.
 - It continuously checks for branches above the character's head and toggles the direction if a branch is detected.
 
-## License
+## 🤝 Contributions
+We welcome contributions from everyone! Whether it's fixing bugs, improving documentation, or suggesting new features, your input is invaluable. 
+
+## 📜 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Author
+## 👤 Author
 Ismayil Mammadov ([7empestGit](https://github.com/7empestGit))
 
-## Acknowledgments
-- The project uses several open-source libraries. Thanks to the contributors of `numpy`, `Pillow`, `opencv-python`, `keyboard`, `pynput`, and `screeninfo`.
+## 🙏 Acknowledgments
+The project uses several open-source libraries. Thanks to the contributors of `numpy`, `Pillow`, `opencv-python`, `keyboard`, `pynput`, and `screeninfo`.
