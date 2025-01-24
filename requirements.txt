@@ -4,6 +4,3 @@ opencv-python
 keyboard
 pynput
 screeninfo
-
-# Minimum Python version
-python_version >= "3.6"
