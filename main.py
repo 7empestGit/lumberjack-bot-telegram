@@ -33,7 +33,9 @@ init = False  # State of game
 sleep_time = 0.25  # Wait time before next operation
 cycle = 0  # Number of iterations
 game_dimension = [0, 0, display_width, display_height]  # Coordinates of region of interest (ROI)
+print("Select left branch point:")
 left_point = get_mouse_click_coordinates()  # Position of man's head on left (in ROI)
+print("Select right branch point:")
 right_point = get_mouse_click_coordinates()  # Position of man's head on right (in ROI)
 dir_man = 0  # Boolean variable to represent direction 0: left, 1: right
 
